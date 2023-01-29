@@ -1,0 +1,90 @@
+/* BOX */
+div{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;}
+p{  height: 75%;
+    width: 75%;
+    background-color: #0088dd;}
+
+/* Table  */
+/* 
+#heading { text-align: left ;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        ; color: rgb(15, 119, 217);}
+    
+th{border-bottom: 2px solid ;}
+     
+    
+.description{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkcyan;
+    ;}
+    .price{
+        font-family: 'Courier New', Courier, monospace; color:darkcyan; 
+
+    } */
+
+/* limiting height
+/* 
+h2,p{width: 400px;
+font-size: 90%;
+line-height: 1.2em;}
+
+h2{color: #0088dd;
+border-bottom: 1px solid ;}
+p{min-height: 10px;
+max-height: 30px;} */
+
+/* overflow contetn */
+/* .one{  overflow: hidden;
+}
+.two{overflow: scroll;} */
+
+/* Border-width */
+
+/* p{
+    border-style: solid;
+}
+p.one{border-width:thick}
+p.two{border-width: medium;}
+p.three{border-width: 1px 2px 3px 1px;} */
+
+/* style color border */
+
+/* p{border-style: groove;}
+
+.style{border-style: dotted;}
+.color{border-color: aqua;}
+.border{border: 2px solid red;} */
+
+/* Padding */
+/* 
+p{border: 2px solid grey;}
+
+p.padding{padding: 10px;} */
+
+/* Margin */
+
+/* p {
+    border: 2px solid grey;
+    width: 300px;
+    height: 50;
+}
+
+p.margin {
+    margin: 10px auto 10px auto;
+    text-align: left;
+} */
+
+/* centring conternt */
+/* body{text-align: center;}
+p{
+    width: 300px;
+    padding: 50px;
+    border:20px solid cornflowerblue;
+
+}
+.example{ margin:10px auto 10px auto;
+        text-align: left;} */
+

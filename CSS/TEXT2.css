@@ -1,0 +1,24 @@
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: grey;
+                background-color: aliceblue;}
+
+h1,h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(35, 121, 219, 0.93);
+    text-shadow: 1px 1px 3px ;
+
+}
+
+.head{color: rgba(35, 121, 219, 0.93);
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+
+a:link{color: rgba(35, 121, 219, 0.93);
+        text-decoration: none;
+    }
+a:visited{ color: rgba(255, 0, 208, 0.93);}
+
+a:hover{   color: greenyellow;
+        }
+a:active{  color:black}
+
+.author{ text-align: right;}

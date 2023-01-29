@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>List_table_Form</title>
+    <link rel="stylesheet" href="list_table_form.css">
+</head>
+<body>
+    <!-- Bullet Style
+    <div>
+        <h1>The Complete Poems</h1>
+        <h2>Emily Dickinson</h2>
+<ol>
+    <li>Life</li>
+    <li>Nature</li>
+    <li>Love</li>
+    <li>Time and Eternity</li>
+    <li>The Signal Hound</li>
+</ol>
+
+
+    </div> -->
+
+    <h1>Poetry Workshop</h1>
+<p>We will be conducting a number of poetry workshop and symposiums throughout tht year.</p>
+<p>Please note that the following events are free to members:</p>
+<ul>
+    <li>A Poetic Perspective </li>
+    <li>Walt Whitman at War</li>
+    <li>Found POems and Outsider Poetry</li>
+</ul>
+
+<table>
+    <tr class="head">
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Franscisco</th>
+    </tr>
+    <tr>
+        <th>A Poetic Perspective</th>
+        <td>Sat, 4 Feb 2012 <br> 11am-2pm</td>
+        <td>Sat, 3 Mar 2012 <br> 11am-2pm</td>
+        <td>Sat, 17 Mar 2012 <br> 11am-2pm</td>
+    </tr>
+    <tr class="even">
+        <th>Walt Whitman at War</th>
+       <td>Sat, 7 Apr 2012 <br>11am - 1pm</td>
+       <td>Sat, 5 May 2012 <br>11am - 1pm</td>
+       <td>Sat, 19 May 2012 <br>11am - 1pm</td>
+    </tr>
+    <tr>
+        <th>Found Poems &amp: Outsider Poetry</th>
+        <td>Sat, 9 Jun 2012 <br>11am-2pm</td>
+        <td>Sat, 7 Jul 2012 <br>11am-2pm</td>
+        <td>Sat, 21 JUl 2012 <br>11am-2pm</td>
+    </tr>
+    <tr class="class">
+        <th>Naural Death: An Exploration</th>
+        <td>Sat, 4 Aug 2012 <br>11am-4pm</td>
+        <td>Sat, 8 Sep 2012 <br>11am-4pm</td>
+        <td>Sat, 15 Sep 2012 <br>11am-4pm</td>
+    </tr>
+</table>
+<form action="form.php">
+    <fieldset>
+        <legend>Register your interest</legend>
+        <p><label class="title" for="name"></label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email" class="title">Your email:</label>
+        <input type="text" name="email id="email"> 
+    </p>
+    <p>
+        <label for="location" class="title">Your closest center:</label>
+        <select name="location" id="location">
+            <option value="ny">New York</option>
+            <option value="il">Chicago</option>
+            <option value="ca">San Franscisco</option>
+        </select>
+    </p>
+    <span class="title">Are you a member?</span>
+    <label><input type="radio" name="member" value="yes">Yes</label>
+    <label><input type="radio" name="member" value="no">No</label>
+    </fieldset>
+    <div class="submit"><input type="submit" value="register"></div>
+</form>
+</body>
+</html>
