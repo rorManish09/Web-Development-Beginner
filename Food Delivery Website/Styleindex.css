@@ -1,0 +1,210 @@
+body {
+    background-color: black;
+}
+
+section div {
+    display: flex;
+    position: relative;
+}
+
+section div .intro-web {
+    font-size: 7rem;
+    font-family: cursive;
+    color: aliceblue;
+    font-weight: 200;
+    text-align: center;
+}
+
+.Intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 500px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#Home-img {
+    display: flex;
+    width: 1351px;
+    height: auto;
+    margin: -10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.486);
+    position: fixed;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    margin: -10px;
+    z-index: 1;
+}
+
+nav a #img {
+    height: 100px;
+    width: auto;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    left: 120px;
+    bottom: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin: 25px;
+    font-size: 1rem;
+    color: aliceblue;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav ul a:hover {
+    color: black;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.services {
+    background-color: black;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+}
+
+.servicearea {
+    border: 0.1px solid rgb(46, 231, 111);
+    background-color: rgb(15 2 32 / 74%);
+    display: flex;
+    height: 340px;
+    width: 340px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.serimg {
+    height: 116px;
+    width: 100px;
+    z-index: 1;
+    position: relative;
+    left: 92px;
+}
+
+section p {
+    display: inline-block;
+    position: relative;
+    top: 125px;
+    right: 45px;
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+}
+
+.Loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#or {
+    margin-left: 135px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+
+#login {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 37px;
+    position: static;
+}
+
+.log {
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(28, 112, 133);
+    background-color: rgba(0, 0, 0, 0.74);
+    font-weight: bold;
+    display: flex;
+    margin-top: 115px;
+    height: 9cm;
+    width: 8cm;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+.join {
+    display: inline;
+    line-height: 10px;
+    margin-bottom: 26px;
+    height: 0.5cm;
+    width: 6cm;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: rgba(40, 218, 231, 0.43);
+}
+
+.button {
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px;
+    height: 2cm;
+    width: 4cm;
+}
+
+#lgbtn {
+    width: 2cm;
+    height: 0.8cm;
+    display: inline;
+    background-color: rgb(5, 119, 119);
+    color: aliceblue;
+}
+
+#register {
+    width: 2cm;
+    margin-left: 30px;
+    height: 0.8cm;
+    display: inline;
+    color: aliceblue;
+    background-color: rgb(18, 200, 54);
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 28px;
+    margin: 15px;
+}
+
+input#lgbtn:hover {
+    background-color: rgb(3, 209, 209);
+}
+
+input#register:hover {
+    background-color: greenyellow;
+}
